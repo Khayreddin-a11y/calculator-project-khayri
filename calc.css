@@ -1,0 +1,67 @@
+body{
+	background-image: url('https://www.hdwallback.net/wp-content/uploads/2018/01/CSS-Background-Color-Tutorial-background-images-2560x1440.jpg')
+}
+#rbk{
+	padding: 20px;
+}
+
+#btnpoint{
+	font-size: 15px;
+	height: 50px;
+	padding-top: 11px
+
+}
+#btnm{
+		font-size: 10px;
+		height: 50px;
+}
+
+.calbtn{
+	background-color:#7FFF00;
+	padding: 15px;	
+	border-radius: 10px;		
+	height: 50px;
+	opacity: 95%;
+font-family: "Lucida Console", "Courier New", monospace;
+font-weight: bold;
+}
+.caldivs{
+	padding: 5px;
+	text-align: center;
+}
+.display{
+		text-align: center;
+}
+#equalbtn{
+	padding-left: 55px;
+	padding-right: 55px
+}
+h2{
+	text-align: center;
+	color: #6495ED;
+	letter-spacing: 3px;
+    text-transform: uppercase;
+}
+#natija{
+	background-color: #D3D3D3;
+	font-size: 20px;
+
+}
+#clearbutton{
+	padding: 13px;
+	border-radius: 10px
+}
+.music{
+	text-align: center;
+	padding: 15px;
+	background-color: #FFEFD5;
+	border-radius: 15px;
+	font-family: "Lucida Console", "Courier New", monospace;
+font-weight: bold;
+color: #00008B;
+
+}
+.musicdiv{
+	text-align: center;
+
+}

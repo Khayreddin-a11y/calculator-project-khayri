@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<meta charset="utf-8">
+	<link rel='stylesheet' type="text/css" href="calc.css">
+</head>
+<body>
+	    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+	    <h2 id="enjoy">  enjoy calculation</h2>
+	    <div class="display"><input  id="natija" type="text" readonly size="13"  value="">
+
+	    <div class="caldivs">
+	    	<input class="calbtn" id="btn1" type="button" onclick="addNumberOrOperator(btn1.value) ;colorchange(btn1)" value="1" >
+	    	<input class="calbtn" id="btn2" type="button" onclick="addNumberOrOperator(btn2.value);colorchange(btn2)" value="2" >
+	    	<input class="calbtn" id="btn3" type="button" onclick="addNumberOrOperator(btn3.value);colorchange(btn3)" value="3" >
+	    	<input class="calbtn" id="plusbtn" type="button" onclick="addNumberOrOperator(plusbtn.value);colorchange(plusbtn)" value="+" >
+
+	    </div>
+
+	    <div class="caldivs">
+	    	<input class="calbtn" id="btn4" type="button" onclick="addNumberOrOperator(btn4.value);colorchange(btn4)" value="4" >
+	    	<input class="calbtn" id="btn5" type="button" onclick="addNumberOrOperator(btn5.value);colorchange(btn5)" value="5" >
+	    	<input class="calbtn" id="btn6" type="button" onclick="addNumberOrOperator(btn6.value);colorchange(btn6)" value="6" >
+	    	<input class="calbtn" id="minusbtn" type="button" onclick="addNumberOrOperator(minusbtn.value);colorchange(minusbtn)" value="-" >
+
+	    </div>
+	    <div class="caldivs">
+	    	<input class="calbtn" id="btn7" type="button" onclick="addNumberOrOperator(btn7.value);colorchange(btn7)" value="7" >
+	    	<input class="calbtn" id="btn8" type="button" onclick="addNumberOrOperator(btn8.value);colorchange(btn8)" value="8" >
+	    	<input class="calbtn" id="btn9" type="button" onclick="addNumberOrOperator(btn9.value);colorchange(btn9)" value="9" >
+	    	<input class="calbtn" id="multibtn" type="button" onclick="addNumberOrOperator(multibtn.value);colorchange(multibtn)" value="*" >
+
+	    </div>	    
+	    <div class="caldivs" >
+	    	<input class="calbtn" id="btn0" type="button" onclick="addNumberOrOperator(btn0.value);colorchange(btn0)" value="0" >
+	    	<input class="calbtn" id="btnpoint" type="button" onclick="addNumberOrOperator(btnpoint.value);colorchange(btnpoint)" value="." >
+	    	<input class="calbtn" id="btnm" type="button" onclick="addNumberOrOperator(btnm.value);colorchange(btnm)" value="%" >
+	    	<input class="calbtn" id="divbtn" type="button" onclick="addNumberOrOperator(divbtn.value);colorchange(divbtn)" value="/" >
+	    </div>	
+
+	    <div class="caldivs" id ="lastdiv">
+	    	<input class="calbtn" id="equalbtn" type="button" onclick="operate(previos);backToFirstColor(calbtn)" value="=" >
+	    <input  class="calbtn" id="clearbutton" type="button" onclick="clearall();backToFirstColor(calbtn)"  name="cl" value="clear"></div>
+
+		</div>
+		<div class="musicdiv">
+			<input id="on" class="music" type="button" onclick="playmusic()" name="" value="on" >
+			<input id="of" class="music" type="button" onclick="stopmusic()" name="" value="pause">
+
+			 <input id="change" class="music" type="button" onclick="musicaChange()" name="" value="change">
+			 <audio id="laMusica" >
+			 	  <source id="snSource" src="songc.mp3" type="audio/ogg">
+
+			 </audio>
+		</div>
+	    <!-- <td colspan=5><input id="btn" name="display" onkeypress="return event.charCode >= 48 && event.charCode <= 57" type="text"></td>-->
+<script src="calc.js"></script>
+</body>
+</html>
